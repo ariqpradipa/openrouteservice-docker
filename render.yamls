@@ -1,0 +1,5 @@
+services: 
+   - type: pserv 
+     name: ors-router
+     env: docker 
+     autoDeploy: false
