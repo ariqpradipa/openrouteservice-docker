@@ -1,5 +1,8 @@
 services: 
-   - type: pserv 
+   - type: web
      name: ors-router
      env: docker 
      autoDeploy: false
+     envVars:
+     - key: PORT
+       value: 8080
